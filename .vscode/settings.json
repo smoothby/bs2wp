@@ -1,0 +1,5 @@
+{
+    "fiveServer.host": "localhost",
+    "fiveServer.php.executable": "/usr/bin/php",
+    "fiveServer.port": 3000
+}

@@ -42,9 +42,9 @@ function bs2wp_assets()
 {
 
     // CSS STYLES
-    wp_enqueue_style('google-font', '//cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('google-font', '//fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap', array(), '1.0', 'all');
     wp_enqueue_style('bootstrap', get_theme_file_uri('assets/css/bootstrap.min.css'), array(), 'v5.1.1', 'all');
-    wp_enqueue_style('flaticon', get_theme_file_uri('assets/font/flaticon.css'), array(), 'null', 'all');
+    wp_enqueue_style('flaticon', get_theme_file_uri('assets/font/flaticon.css'), array(), '', 'all');
 
     // MAIN THEME CSS
     wp_enqueue_style('bs2wp', get_stylesheet_uri(), array('bootstrap'), 'v1.0', 'all');
